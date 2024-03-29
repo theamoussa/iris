@@ -1,0 +1,44 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo */
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide slides by default */
+  .slide {
+    display: none;
+  }
+  
+  /* Text below slideshow */
+  .text {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Media query for mobile screens */
+  @media screen and (max-width: 600px) {
+    .logo {
+      width: 150px; /* Adjust width as needed for smaller screens */
+    }
+  }
+  
+  
