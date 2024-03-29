@@ -11,7 +11,7 @@ body, html {
   }
   
   .logo {
-    width: 100px; /* Adjust width as needed */
+    width: 6vw; /* Adjust width as needed */
     height: auto;
     display: block;
     margin: 0 auto; /* Center the logo */
@@ -29,6 +29,7 @@ body, html {
   .slide {
     display: none;
   }
+
   
   /* Text below slideshow */
   .text {
@@ -52,8 +53,9 @@ body, html {
   /* Media query for mobile screens */
   @media screen and (max-width: 600px) {
     .logo {
-      width: 150px; /* Adjust width as needed for smaller screens */
+      width: 20vw; /* Adjust width as needed for smaller screens */
     }
+    
   }
   
   
