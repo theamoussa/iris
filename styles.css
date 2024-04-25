@@ -18,7 +18,7 @@ body, html {
   }
   
   /* Slideshow container */
-  .slideshow-container {
+  .slide img {
     max-width: 1000px;
     display: flex;
     justify-content: center;
@@ -39,6 +39,7 @@ body, html {
     margin: 0 auto;
     width: 90vw;
     padding: 20px;
+    color: rgb(78, 43, 19);
   }
 
   a {
@@ -47,7 +48,7 @@ body, html {
   }
   
   a :hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 
   /* Media query for mobile screens */
@@ -55,7 +56,23 @@ body, html {
     .logo {
       width: 20vw; /* Adjust width as needed for smaller screens */
     }
-    
+    .slide img {
+      width: 90vw;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .text {
+      font-size: 12px;
+      justify-content:center;
+      text-align:justify;
+      display: block;
+      margin: 0 auto;
+      width: 80vw;
+      padding: 20px;
+      color: rgb(78, 43, 19);
+    }
   }
   
   
