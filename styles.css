@@ -5,6 +5,39 @@ body, html {
     font-family: 'Times New Roman', Times, serif;
   }
   
+  body {
+    background-color: rgb(251, 249, 247); /* Background color for the entire page */
+  }
+    /* Center image */
+    .image-container {
+    width: 56%;
+    margin: 0 auto; /* Centers the container */
+    text-align: center; /* Centers the image within the container */
+  }
+
+  /* Set max width for the image */
+  .image-container img {
+    max-width: 100%; /* Set maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Caption style */
+  .caption {
+    text-align: left;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #210202;
+  }
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
   /* Header styles */
   header {
     text-align: center;
@@ -16,62 +49,39 @@ body, html {
     display: block;
     margin: 0 auto; /* Center the logo */
   }
-  
-  /* Slideshow container */
-  .slide img {
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-  
-  /* Hide slides by default */
-  .slide {
-    display: none;
-  }
 
-  
-  /* Text below slideshow */
-  .text {
-    justify-content:center;
-    text-align:justify;
-    display: block;
-    margin: 0 auto;
-    width: 90vw;
-    padding: 20px;
-    color: rgb(78, 43, 19);
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  a :hover {
-    text-decoration: underline !important;
-  }
 
   /* Media query for mobile screens */
   @media screen and (max-width: 600px) {
+
     .logo {
       width: 20vw; /* Adjust width as needed for smaller screens */
     }
-    .slide img {
-      width: 90vw;
-      display: flex;
-      justify-content: center;
-      margin: auto;
+     /* Center image */
+     .image-container {
+      width: 90%;
+      margin: 0 auto; /* Centers the container */
+      text-align: center; /* Centers the image within the container */
     }
-
-    .text {
+  
+    /* Set max width for the image */
+    .image-container img {
+      max-width: 100%; /* Set maximum width to 100% of the container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Caption style */
+    .caption {
+      text-align: center;
+      font-style: normal;
       font-size: 12px;
-      justify-content:center;
-      text-align:justify;
-      display: block;
-      margin: 0 auto;
-      width: 80vw;
-      padding: 20px;
-      color: rgb(78, 43, 19);
+      color: #210202;
+      line-height: 2;
+    }
+  
+    a {
+      text-decoration: none; /* Remove underline */
+      color: inherit; /* Inherit color from parent */
     }
   }
   
