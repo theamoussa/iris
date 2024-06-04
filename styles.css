@@ -91,6 +91,15 @@ body, html {
       text-decoration: none; /* Remove underline */
       color: inherit; /* Inherit color from parent */
     }
+
+    .text-container {
+      margin-top: 40px;
+      text-align: center;
+      font-style: normal;
+      font-size: 12px;
+      color: #210202;
+      line-height: 2;
+    }
   }
   
   
