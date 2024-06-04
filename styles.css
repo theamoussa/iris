@@ -29,6 +29,14 @@ body, html {
     color: #210202;
   }
 
+.text-container {
+  margin-top: -95px;
+  text-align: right;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #210202;
+}
+
   a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit color from parent */
