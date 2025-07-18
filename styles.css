@@ -131,16 +131,14 @@ body, html {
     border: none;
   }
 
-  .tidycal-embed {
-    height: auto; /* Load more than needed so we can crop */
-    transform: translateY(-20px); /* Shift up to hide footer */
-  }
-    .caption-container {
-      display: block;
-      justify-content: space-between;
-      max-width: 100%;
-      font-size: 12px;
+    .tidycal-wrapper {
+      height: auto;
+      overflow: auto;
     }
 
+    .tidycal-embed {
+      transform: none;
+      height: auto;
+    }
   }
-  
+
