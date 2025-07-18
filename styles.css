@@ -123,14 +123,6 @@ body, html {
       line-height: 2;
     }
 
-   .tidycal-wrapper {
-    width: 100%;
-    position: relative;
-    margin-top: 40px;
-    margin: 0 auto;
-    border: none;
-  }
-
     .tidycal-wrapper {
       height: auto;
       overflow: auto;
@@ -140,5 +132,13 @@ body, html {
       transform: none;
       height: auto;
     }
-  }
+    
+    .caption-container {
+      display: block;
+      justify-content: space-between;
+      max-width: 100%;
+      font-size: 12px;
+    }
 
+  }
+  
