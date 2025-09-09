@@ -24,7 +24,6 @@ body, html {
   .tidycal-wrapper {
     width: 100%;
     max-width: 80%;
-    height: 600px; /* Adjust this height as needed */
     overflow: hidden;
     position: relative;
     margin-top: 40px;
