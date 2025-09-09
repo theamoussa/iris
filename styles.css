@@ -23,7 +23,7 @@ body, html {
 
   .tidycal-wrapper {
     width: 100%;
-    max-width: 80%;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
     margin-top: 40px;
