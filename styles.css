@@ -33,7 +33,7 @@ body, html {
 
   .tidycal-embed {
     height: 1000px; /* Load more than needed so we can crop */
-    transform: translateY(-50px); /* Shift up to hide footer */
+    transform: translateY(-0px); /* Shift up to hide footer */
   }
 
   /* Caption style */
