@@ -26,14 +26,13 @@ body, html {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 40px;
+    margin-top: 0px;
     margin: 0 auto;
     border: none;
   }
 
   .tidycal-embed {
     height: 1000px; /* Load more than needed so we can crop */
-    transform: translateY(-0px); /* Shift up to hide footer */
   }
 
   /* Caption style */
